@@ -6,7 +6,7 @@ export const EmployeeProvider = (props) => {
     const [employees, setEmployees] = useState([])
 
     // created state variable set to value of false
-    const [ position, setPosition ] = useState();
+    const [ position, setPosition ] = useState(false);
 
     const getEmployees = () => {
         console.log(setPosition, setEmployees)

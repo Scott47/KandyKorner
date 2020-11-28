@@ -1,0 +1,91 @@
+{
+  "products": [],
+  "locations": [
+    {
+      "id": 1,
+      "name": "homey's hometown",
+      "address": "homey's house"
+    },
+    {
+      "id": 2,
+      "name": "Gucci",
+      "address": "allgood man"
+    }
+  ],
+  "employees": [
+    {
+      "name": "Sherman",
+      "locationId": 1,
+      "payRate": 150,
+      "fullTime": true,
+      "manager": true,
+      "id": 1
+    },
+    {
+      "name": "Jam",
+      "locationId": 2,
+      "payRate": 225,
+      "fullTime": false,
+      "manager": false,
+      "id": 2
+    },
+    {
+      "name": "kittay kat",
+      "locationId": 1,
+      "payRate": 400,
+      "fullTime": true,
+      "manager": true,
+      "id": 3
+    },
+    {
+      "name": "dookey",
+      "locationId": 2,
+      "payRate": 5,
+      "fullTime": false,
+      "manager": true,
+      "id": 4
+    },
+    {
+      "name": "naimean",
+      "locationId": 2,
+      "payRate": 22,
+      "fullTime": true,
+      "manager": false,
+      "id": 5
+    },
+    {
+      "name": "reactsux",
+      "locationId": 1,
+      "payRate": 400,
+      "fullTime": true,
+      "manager": true,
+      "id": 7
+    },
+    {
+      "name": "stanky nose",
+      "locationId": 2,
+      "payRate": 2,
+      "fullTime": false,
+      "manager": false,
+      "id": 8
+    },
+    {
+      "name": "dookeystankybutt",
+      "locationId": 1,
+      "payRate": 78,
+      "fullTime": false,
+      "manager": true,
+      "id": 9
+    },
+    {
+      "name": "dookey stank",
+      "locationId": 2,
+      "payRate": 400,
+      "fullTime": false,
+      "manager": false,
+      "id": 10
+    }
+  ],
+  "productTypes": [],
+  "customers": []
+}

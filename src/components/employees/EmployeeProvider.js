@@ -5,10 +5,15 @@ export const EmployeeContext = React.createContext()
 export const EmployeeProvider = (props) => {
     const [employees, setEmployees] = useState([])
 
+    // created state variable set to value of false
+    const [ position, setPosition ] = useState();
+
     const getEmployees = () => {
+        console.log(setPosition, setEmployees)
         return fetch("http://localhost:8088/employees")
         .then(res => res.json())
         .then(setEmployees)
+
     }
 
     const addEmployee = (employee) => {
@@ -23,7 +28,7 @@ export const EmployeeProvider = (props) => {
     }
 
     return (
-        <EmployeeContext.Provider value={{employees, getEmployees, addEmployee}}>
+        <EmployeeContext.Provider value={{employees, getEmployees, addEmployee, position, setPosition}}>
             {props.children}
         </EmployeeContext.Provider>
     )
